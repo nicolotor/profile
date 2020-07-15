@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500;700&family=PT+Sans&display=swap');
+
+body {
+  font-family: 'Lora';
+  background-color: #ade8f4;
+}
+
+h1, h2 {
+  font-family: 'PT Sans';
+  color: #023e8a;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+img {
+  border-radius: 60%;
+}
+
+a {
+  color: e85d04;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 12px 66px;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+}
+
+div {
+  width: 70%;
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.1);
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  }
+
+.btn {
+  background-color: #ade8f4;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  transition: 0.5s;
+  display: inline-block;
+}
+.btn:hover{
+  background-color: #90e0ef;
+}
+
+.fab{
+  font-size: 40px;
+}
+.fab:hover{
+  color: #90e0ef;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
